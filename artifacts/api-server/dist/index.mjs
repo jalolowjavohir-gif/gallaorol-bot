@@ -41634,7 +41634,7 @@ async function showMainMenu(ctx) {
     COURSES.map((course) => [import_telegraf.Markup.button.callback(course, `course_${course}`)])
   );
   await ctx.reply(
-    `\u{1F44B} Assalomu alaykum! Men *Gallaorol Yoshlar Markazi*ning admin botiman.
+    `\u{1F44B} Assalomu alaykum! Men *G'allaorol Yoshlar Markazi*ning admin botiman.
 
 \u{1F4CB} Sizga qanday yordam bera olaman?
 
@@ -41787,7 +41787,7 @@ _(Masalan: Alisher Karimov)_`,
 
 \u2705 Ma'lumotlaringiz qabul qilindi. Tez orada administrator siz bilan bog'lanadi!
 
-\u{1F3E2} *Gallaorol Yoshlar Markazi*`;
+\u{1F3E2} *G'allaorol Yoshlar Markazi*`;
     await ctx.reply(summary, {
       parse_mode: "Markdown",
       ...import_telegraf.Markup.inlineKeyboard([
