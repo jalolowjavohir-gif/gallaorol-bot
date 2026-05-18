@@ -25,4 +25,8 @@ app.listen(port, (err) => {
   logger.info({ port }, "Server listening");
 });
 
-startBot();
+if (process.env["NODE_ENV"] === "production") {
+  startBot();
+} else {
+  logger.info("Dev muhitida bot ishga tushmaydi (Render'da ishlaydi)");
+}
