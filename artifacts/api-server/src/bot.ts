@@ -51,7 +51,7 @@ async function showMainMenu(ctx: Context) {
   );
 
   await ctx.reply(
-    `👋 Assalomu alaykum! Men *Gallaorol Yoshlar Markazi*ning admin botiman.\n\n` +
+    `👋 Assalomu alaykum! Men *G'allaorol Yoshlar Markazi*ning admin botiman.\n\n` +
       `📋 Sizga qanday yordam bera olaman?\n\n` +
       `Quyidagi kurslardan birini tanlang:`,
     {
@@ -214,7 +214,7 @@ bot.on("message", async (ctx) => {
       `👤 *Ism Familiya:* ${session.name}\n` +
       `━━━━━━━━━━━━━━━━━━━━\n\n` +
       `✅ Ma'lumotlaringiz qabul qilindi. Tez orada administrator siz bilan bog'lanadi!\n\n` +
-      `🏢 *Gallaorol Yoshlar Markazi*`;
+      `🏢 *G'allaorol Yoshlar Markazi*`;
 
     await ctx.reply(summary, {
       parse_mode: "Markdown",
